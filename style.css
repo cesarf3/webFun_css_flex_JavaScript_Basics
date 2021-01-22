@@ -6,11 +6,37 @@
 #wrapper {
     background-color: rgb(29,52,92);
     width: 970px;
+    height: auto;
 }
 
 .header{
     color: rgb(195,214,235);
     background-color: rgb(204,50,58);
+    padding: 15px;
+    border-radius: 8px;
+    margin: 10px;
+    
+}
+
+.navigation-menu {
+    background-color: rgb(46,125,139);
+    display: inline-block;
+    margin: 10px;
+    border-radius: 10px;
+    justify-content: left;
+    width: 180px;
+    
+}
+
+.main-content{
+    background-color: rgb(14,24,33);
+    color: white;
+    display: inline-block;
+}
+
+.footer{
+    background-color: rgb(94,102,114);
+    color: white;
 }
 
 .green{
@@ -20,18 +46,4 @@
 
 .purple{
     color: rgb(118,137,255);
-}
-
-.navigation-menu {
-    background-color: rgb(46,125,139);
-}
-
-.main-content{
-    background-color: rgb(14,24,33);
-    color: white;
-}
-
-.footer{
-    background-color: rgb(94,102,114);
-    color: white;
 }
