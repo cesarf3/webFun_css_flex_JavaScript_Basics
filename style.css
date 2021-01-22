@@ -14,3 +14,15 @@
 
 }
 
+.navigation-menu {
+    background-color: rgb(46,125,139);
+}
+
+.main-content{
+    background-color: rgb(14,24,33);
+    color: white;
+}
+
+.footer{
+    background-color: rgb(94,102,114);
+}
