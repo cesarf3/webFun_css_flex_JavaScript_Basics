@@ -35,11 +35,15 @@
     list-style-position: inside;
 }
 
+.main-content ul{
+    list-style-position: inside;
+}
+
 .main-content{
     background-color: rgb(14,24,33);
     color: white;
     display: flex;
-    /* flex-direction: column; */
+    text-align: justify;
     flex-wrap: wrap;
     margin: 10px;
     border-radius: 10px;
