@@ -3,23 +3,22 @@
     margin: 0;
 }
 
-#wrapper {
+#container{
     background-color: rgb(29,52,92);
-    width: auto;
-    height: auto;
-    
+    width: 970px;
+    /* height: auto; */
+    padding: 10px;
 }
 
 .header{
     color: rgb(195,214,235);
     background-color: rgb(204,50,58);
     padding: 15px;
-    border-radius: 8px;
-    margin: 10px;
-    
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
 
-.navigation-menu {
+.navbar{
     background-color: rgb(46,125,139);
     display:flex;
     flex-direction: column;
@@ -31,7 +30,7 @@
     width: 200px;
 }
 
-.navigation-menu ul{
+.navbar ul{
     list-style-position: inside;
 }
 
@@ -42,6 +41,7 @@
 .main-content{
     background-color: rgb(14,24,33);
     color: white;
+    font-size: 12px;
     display: flex;
     text-align: justify;
     flex-wrap: wrap;
@@ -58,8 +58,10 @@
 .green{
     color: rgb(111,222,231);
     text-decoration-line: underline;
+    font-size: 12px;
 }
 
 .purple{
     color: rgb(118,137,255);
+    font-size: 12px;
 }
