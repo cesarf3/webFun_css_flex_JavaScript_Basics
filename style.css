@@ -5,7 +5,7 @@
 
 #container{
     background-color: rgb(29,52,92);
-    width: 950px;
+    width: 940px;
     padding: 10px;
 }
 
@@ -15,7 +15,7 @@
     padding: 15px;
     border-radius: 10px;
     margin-bottom: 10px;
-    width: 900px;
+    width: 905px;
 }
 
 .navbar{
@@ -26,6 +26,7 @@
     font-size: 12px;
     width: 140px;
     vertical-align: top;
+    margin-top: 5px;
 }
 
 .indent {
@@ -45,6 +46,8 @@
     display: inline-block;
     width: 705px;
     margin-left: 15px;
+    margin-top: 5px;
+    height: 400px;
 }
 
 .main-content ul{
@@ -52,7 +55,7 @@
     padding: 5px;
 }
 
-.main-content h3, .main-content p, .main-content ul li{
+.main-content h2, .main-content p, .main-content ul li{
     padding: 5px;
 }
 
@@ -63,6 +66,8 @@
     padding: 15px;
     font-size: 12px;
     margin-top: 10px;
+    width: 905px;
+    font-size: 12px;
 }
 
 .green{
